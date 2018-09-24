@@ -1,2 +1,0 @@
-# yugen
-Yugen is a clean, simple, minimal, modern &amp; stylish WordPress blog theme, fully responsive design and easy to use. The minimalist design-oriented theme that helps you to showcase your posts super clean and beautiful and suitable for creative writers and bloggers ranging from Fashion, Travel, Music, Car, Real State, Beauty, Design, Food, Wedding, Movie, Photography, Technology and any other types of blog. More Details at: https://precisethemes.com/wordpress-theme/yugen/ and Live Demo at: https://precisethemes.com/demo/yugen/

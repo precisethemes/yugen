@@ -1,0 +1,1011 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Yugen\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-04 13:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/helpers/template-functions.php:311
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/helpers/template-functions.php:66
+msgid ", "
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:258
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/helpers/template-functions.php:307
+#, php-format
+msgid "<label>Archives %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:279
+#, php-format
+msgid "<label>Author %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:275
+#, php-format
+msgid "<label>Category %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:285
+#, php-format
+msgid "<label>Day %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:283
+#, php-format
+msgid "<label>Month %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:277
+#, php-format
+msgid "<label>Tag %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:281
+#, php-format
+msgid "<label>Year %s"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:43
+msgid "Add Social Profile"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:139
+msgid "Add space to left and right side of each post."
+msgstr ""
+
+#: inc/framework/widgets/widget-functions.php:21
+#: inc/framework/widgets/widget-functions.php:42
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/helpers/template-functions.php:239
+msgid "All rights reserved"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:16
+msgid "Archive/Blog Settings"
+msgstr ""
+
+#: inc/helpers/template-functions.php:313 inc/libraries/breadcrumbs.php:259
+msgid "Archives"
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:53
+msgid "Author"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:26
+#: inc/framework/customizer/panel/general.php:357
+msgid "Back to Top"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:45
+msgid "Background Image"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:70
+#: inc/framework/customizer/panel/header.php:46
+msgid "Background Overlay"
+msgstr ""
+
+#: inc/helpers/template-array.php:40
+msgid "Behance"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:48
+msgid "Body"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:256
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:255
+msgid "Browse:"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:356
+#: inc/framework/customizer/panel/hero.php:99
+msgid "Button Text"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:104
+msgid "Button URL"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:80
+msgid "Categories"
+msgstr ""
+
+#: inc/helpers/template-array.php:76 inc/framework/widgets/about-widget.php:77
+msgid "Center"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:100
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:25
+msgid "Colors"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:24
+msgid "Column Settings"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:138
+msgid "Column Spacing"
+msgstr ""
+
+#. %s is the page number.
+#: inc/libraries/breadcrumbs.php:265
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:84
+msgid "Comment Section"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/libraries/tgm/tgm.php:31
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:61
+msgid "Content"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:24
+msgid "Content & Settings"
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:71
+msgid "Content Alignment"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:75
+msgid "Content Footer Section"
+msgstr ""
+
+#: inc/framework/customizer/panel/page.php:45
+msgid "Content Header"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:50
+msgid "Content Header Section"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:62
+msgid "Content Order"
+msgstr ""
+
+#: inc/framework/customizer/panel/page.php:22
+#: inc/framework/customizer/panel/post.php:23
+msgid "Content Settings"
+msgstr ""
+
+#: inc/helpers/template-functions.php:239
+#, php-format
+msgid "Copyright &copy; %1$s %3$s. %2$s."
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:69
+msgid "Copyright Text"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Barlow, translate this to 'off'. Do not translate into your own language.
+#: functions.php:189
+msgctxt "Cormorant Garamond font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:80
+msgid "Custom Icon"
+msgstr ""
+
+#: inc/helpers/template-functions.php:285
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:781 inc/libraries/breadcrumbs.php:1210
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:105
+msgid "Dark"
+msgstr ""
+
+#: inc/framework/meta-boxes/class-meta-box.php:317
+msgid "Default"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:206
+msgid ""
+"Default layout is inherit from global settings. Assign new default layout "
+"for all archive pages."
+msgstr ""
+
+#: inc/framework/customizer/panel/page.php:64
+msgid ""
+"Default layout is inherit from global settings. Assign new default layout "
+"for all single page."
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:97
+msgid ""
+"Default layout is inherit from global settings. Assign new default layout "
+"for all single post."
+msgstr ""
+
+#: inc/framework/customizer/panel/homepage.php:19
+msgid ""
+"Default layout is inherit from global settings. Assign new default layout "
+"for home or static home page."
+msgstr ""
+
+#: inc/framework/meta-boxes/class-meta-box.php:324
+msgid "Default value is inherit from single post or page settings."
+msgstr ""
+
+#: inc/helpers/template-array.php:41
+msgid "Delicious"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:245
+msgid "Description Typography"
+msgstr ""
+
+#: inc/helpers/template-functions.php:241
+#, php-format
+msgid "Designed by %2$s"
+msgstr ""
+
+#: inc/helpers/template-array.php:42
+msgid "Digg"
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:17
+msgid "Display author details."
+msgstr ""
+
+#: inc/framework/customizer/panel/header.php:112
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/framework/widgets/social-profiles-widget.php:18
+msgid "Display social profiles."
+msgstr ""
+
+#: inc/framework/customizer/panel/header.php:125
+msgid "Display Tagline"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:63
+#: inc/framework/customizer/panel/page.php:46
+#: inc/framework/customizer/panel/post.php:51
+#: inc/framework/customizer/panel/post.php:76
+#: inc/framework/customizer/panel/social.php:44
+msgid "Drag & Drop items to re-arrange order of appearance."
+msgstr ""
+
+#: inc/helpers/template-array.php:43
+msgid "Dribbble"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/page/content-page.php:98 template-parts/post/content.php:127
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:335
+msgid "Enable"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:47
+msgid "Enable hero slider on Homepage."
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:336
+msgid "Enable it to display back to top button."
+msgstr ""
+
+#: inc/helpers/template-array.php:44
+#: inc/framework/widgets/social-profiles-widget.php:71
+#: inc/framework/customizer/panel/social.php:54
+msgid "Facebook"
+msgstr ""
+
+#: inc/framework/customizer/panel/page.php:50
+#: inc/framework/customizer/panel/post.php:55
+msgid "Featured Image"
+msgstr ""
+
+#: inc/helpers/template-array.php:45
+msgid "Flickr"
+msgstr ""
+
+#: functions.php:104 inc/framework/customizer/panel/footer.php:16
+msgid "Footer"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:24
+msgid "Footer Bar"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:25
+msgid "Footer Bar Separator"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:70
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/framework/widgets/widget-functions.php:40
+#, php-format
+msgid "Footer Widgets Column %d"
+msgstr ""
+
+#: inc/helpers/template-array.php:46
+msgid "Foursquare"
+msgstr ""
+
+#. Name of the template
+#: inc/helpers/template-array.php:25
+msgid "Full Width"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:16
+msgid "General Settings"
+msgstr ""
+
+#: inc/helpers/template-array.php:47
+msgid "Github"
+msgstr ""
+
+#: inc/helpers/template-array.php:48
+msgid "Google Plus"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:87
+msgid "H1"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:125
+msgid "H2"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:163
+msgid "H3"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:201
+msgid "H4"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:239
+msgid "H5"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:277
+msgid "H6"
+msgstr ""
+
+#: inc/framework/customizer/panel/header.php:16
+msgid "Header"
+msgstr ""
+
+#: inc/framework/customizer/panel/header.php:23
+msgid "Header Image"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:16
+msgid "Hero Section"
+msgstr ""
+
+#: template-parts/hero/content-hero.php:13
+#: inc/framework/customizer/panel/hero.php:69
+msgid "Hero Short Description Here."
+msgstr ""
+
+#: template-parts/hero/content-hero.php:12
+#: inc/framework/customizer/panel/hero.php:68
+msgid "Hero Subtitle"
+msgstr ""
+
+#: template-parts/hero/content-hero.php:11
+#: inc/framework/customizer/panel/hero.php:67
+msgid "Hero Title"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:257
+msgid "Home"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:46
+msgid "Homepage"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:763
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/helpers/template-functions.php:241
+msgid "http://precisethemes.com/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://precisethemes.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://precisethemes.com/wordpress-theme/yugen/"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:73
+msgid "Icon"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:78
+msgid "Image"
+msgstr ""
+
+#: inc/helpers/template-array.php:49
+msgid "Instagram"
+msgstr ""
+
+#: 404.php:34
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:46
+#: inc/framework/customizer/panel/general.php:315
+msgid "Layout"
+msgstr ""
+
+#: inc/helpers/template-array.php:75 inc/framework/widgets/about-widget.php:76
+msgid "Left"
+msgstr ""
+
+#: inc/helpers/template-array.php:24
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:104
+msgid "Light"
+msgstr ""
+
+#: inc/helpers/template-array.php:50
+msgid "LinkedIn"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/helpers/template-functions.php:94
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/framework/customizer/panel/header.php:78
+msgid "Logo Height"
+msgstr ""
+
+#: inc/helpers/template-array.php:51
+msgid "Mail"
+msgstr ""
+
+#: inc/libraries/tgm/tgm.php:26
+msgid "MailChimp Sign-Up Form"
+msgstr ""
+
+#: inc/helpers/template-array.php:52
+msgid "Medium"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/libraries/breadcrumbs.php:267
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:729
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:746
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:780 inc/libraries/breadcrumbs.php:836
+#: inc/libraries/breadcrumbs.php:1206
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/helpers/template-functions.php:283
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: 404.php:46
+msgid "Most Used Categories"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:113
+msgid "New Window"
+msgstr ""
+
+#: template-parts/pagination/content-pagination.php:35
+msgid "Next"
+msgstr ""
+
+#: template-parts/post/post-navigation.php:66
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/post/post-navigation.php:68
+msgid "Next post"
+msgstr ""
+
+#: inc/framework/meta-boxes/class-meta-box.php:115
+msgid "No meta settings available for this post type or user."
+msgstr ""
+
+#: inc/framework/demo-importer/class-demo.php:184
+msgid ""
+"NOTE: In demo import, category selection could be omitted in old (non-fresh) "
+"WordPress setup. After import is complete, please go to Widgets admin page "
+"under Appearance menu and select the appropriate category in the widgets."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/libraries/tgm/tgm.php:21
+msgid "One Click Demo Import"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: inc/helpers/theme-hooks.php:131
+msgid "Oops! That page can't be found."
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:109
+msgid "Open Button URL"
+msgstr ""
+
+#: inc/framework/meta-boxes/class-meta-box.php:154
+msgid "Other"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:134
+msgid "Overlay Background Color"
+msgstr ""
+
+#: template-parts/pagination/content-pagination.php:36
+msgid "Page"
+msgstr ""
+
+#. %s is the page number.
+#: inc/libraries/breadcrumbs.php:263
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:23
+msgid "Page Header"
+msgstr ""
+
+#: template-parts/page/content-page.php:73 template-parts/post/content.php:76
+msgid "Pages:"
+msgstr ""
+
+#: inc/helpers/template-array.php:53
+msgid "Pinterest"
+msgstr ""
+
+#. %s: post date.
+#: inc/helpers/template-functions.php:187
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: inc/helpers/template-functions.php:288
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/helpers/template-functions.php:302
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/helpers/template-functions.php:304
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/helpers/template-functions.php:290
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/helpers/template-functions.php:292
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/helpers/template-functions.php:298
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/helpers/template-functions.php:296
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/helpers/template-functions.php:300
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/helpers/template-functions.php:294
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:83
+msgid "Post Navigation"
+msgstr ""
+
+#: template-parts/post/post-navigation.php:14
+msgid "Post navigation"
+msgstr ""
+
+#: template-parts/pagination/content-pagination.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:118
+msgid "Posts Per Row"
+msgstr ""
+
+#. Author of the theme
+msgid "Precise Themes"
+msgstr ""
+
+#: template-parts/pagination/content-pagination.php:34
+msgid "Previous"
+msgstr ""
+
+#: template-parts/post/post-navigation.php:32
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/post/post-navigation.php:34
+msgid "Previous post"
+msgstr ""
+
+#: functions.php:97
+msgid "Primary"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:64
+msgid "Profile Name"
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:19
+msgid "PT: About"
+msgstr ""
+
+#: inc/framework/widgets/social-profiles-widget.php:20
+msgid "PT: Social Profiles"
+msgstr ""
+
+#: template-parts/hero/content-hero.php:14
+#: template-parts/post/related-posts.php:20
+#: inc/framework/customizer/panel/hero.php:70
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:79
+msgid "Recommend image width is 1800px."
+msgstr ""
+
+#: inc/helpers/template-array.php:54
+msgid "Reddit"
+msgstr ""
+
+#: template-parts/post/related-posts.php:19
+#: inc/framework/customizer/panel/post.php:82
+msgid "Related Posts"
+msgstr ""
+
+#: inc/helpers/template-array.php:77
+msgid "Right"
+msgstr ""
+
+#: inc/helpers/template-array.php:26
+msgid "Right Sidebar"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Barlow Semi Condensed, translate this to 'off'. Do not translate into your own language.
+#: functions.php:184
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:86
+msgid "Rounded Image"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:112
+msgid "Same Window"
+msgstr ""
+
+#. %s: search query.
+#: inc/helpers/theme-hooks.php:112
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. %s is the search query.
+#: inc/libraries/breadcrumbs.php:261
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:58
+msgid "Select an user"
+msgstr ""
+
+#: inc/framework/meta-boxes/class-meta-box.php:56
+msgid "Settings"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:94
+msgid "Short Description"
+msgstr ""
+
+#: inc/framework/widgets/widget-functions.php:19
+#: inc/framework/customizer/panel/archive.php:25
+#: inc/framework/customizer/panel/general.php:24
+#: inc/framework/customizer/panel/page.php:23
+#: inc/framework/customizer/panel/post.php:24
+msgid "Sidebar"
+msgstr ""
+
+#: inc/framework/meta-boxes/class-meta-box.php:321
+#: inc/framework/customizer/panel/archive.php:205
+#: inc/framework/customizer/panel/homepage.php:18
+#: inc/framework/customizer/panel/page.php:63
+#: inc/framework/customizer/panel/post.php:96
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/framework/customizer/panel/page.php:15
+msgid "Single Page Settings"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:16
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/framework/customizer/panel/header.php:24
+msgid "Site Title & Tagline"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/helpers/template-array.php:55
+msgid "Skype"
+msgstr ""
+
+#: inc/helpers/template-array.php:56
+msgid "Slack"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:16
+#: inc/framework/customizer/panel/social.php:48
+msgid "Social"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:71
+msgid "Social Icons"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:23
+msgid "Social Profiles"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/helpers/template-array.php:57
+msgid "Stackoverflow"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:89
+msgid "Subtitle"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:205
+msgid "Subtitle Typography"
+msgstr ""
+
+#: inc/framework/customizer/panel/post.php:81
+msgid "Tags "
+msgstr ""
+
+#: inc/framework/customizer/panel/theme-info.php:15
+msgid "Themes Info"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:316
+msgid ""
+"This sidebar will be reflected in whole site blog, archives, categories, "
+"tags, authors and search result page."
+msgstr ""
+
+#: inc/framework/widgets/social-profiles-widget.php:34
+msgid ""
+"Tip: This widget is used to display social profiles for that you have to set "
+"profile links through Appearance-> Customize-> Social-> Social Profiles."
+msgstr ""
+
+#: inc/framework/widgets/about-widget.php:39
+#: inc/framework/widgets/social-profiles-widget.php:40
+#: inc/framework/widgets/social-profiles-widget.php:47
+#: inc/framework/customizer/panel/hero.php:84
+#: inc/framework/customizer/panel/page.php:51
+#: inc/framework/customizer/panel/post.php:56
+msgid "Title"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:164
+msgid "Title Typography"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:62
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: inc/helpers/template-array.php:59
+msgid "Tumblr"
+msgstr ""
+
+#: inc/helpers/template-array.php:58
+msgid "Twitter"
+msgstr ""
+
+#: inc/framework/customizer/panel/general.php:23
+msgid "Typography"
+msgstr ""
+
+#: inc/framework/customizer/panel/social.php:69
+msgid "URL"
+msgstr ""
+
+#: inc/helpers/template-array.php:60
+msgid "Vimeo"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:23
+msgid "Visibility"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/libraries/breadcrumbs.php:269
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/libraries/breadcrumbs.php:809
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:23
+msgid "Widgets"
+msgstr ""
+
+#: inc/helpers/template-functions.php:281 inc/libraries/breadcrumbs.php:779
+#: inc/libraries/breadcrumbs.php:808 inc/libraries/breadcrumbs.php:835
+#: inc/libraries/breadcrumbs.php:862 inc/libraries/breadcrumbs.php:1202
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/helpers/template-array.php:61
+msgid "YouTube"
+msgstr ""
+
+#. Name of the theme
+msgid "Yugen"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Yugen is a clean, simple, minimal, modern &amp; stylish WordPress blog theme,"
+" fully responsive design and easy to use. The minimalist design-oriented "
+"theme that helps you to showcase your posts super clean and beautiful and "
+"suitable for creative writers and bloggers ranging from Fashion, Travel, "
+"Music, Car, Real State, Beauty, Design, Food, Wedding, Movie, Photography, "
+"Technology and any other niche. DEMO: https://precisethemes.com/demo/yugen-"
+"free/"
+msgstr ""
+
+#: inc/libraries/back-compat.php:28 inc/libraries/back-compat.php:38
+#: inc/libraries/back-compat.php:51
+#, php-format
+msgid ""
+"Yugen requires at least PHP version 5.4.0. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
