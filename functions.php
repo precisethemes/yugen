@@ -297,6 +297,10 @@ require YUGEN_THEME_DIR . '/inc/libraries/tgm/tgm.php';
  */
 if ( is_admin() ) {
 
+    // Welcome Page.
+    require YUGEN_THEME_DIR . '/inc/framework/welcome-screen/class-welcome-screen.php';
+    require YUGEN_THEME_DIR . '/inc/framework/welcome-screen/persist-admin-notices-dismissal.php';
+
     // Demo.
     require YUGEN_THEME_DIR . '/inc/framework/demo-importer/class-demo.php';
 }

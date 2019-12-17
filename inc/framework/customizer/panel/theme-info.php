@@ -34,7 +34,7 @@ if ( ! function_exists( 'yugen_customizer_theme_info_controls_init' ) ) :
                 'type'        => 'custom',
                 'settings'    => 'yugen_theme_info_support_link',
                 'section'     => 'yugen_theme_info_section',
-                'default'     => '<a target="_blank" href="' . esc_url( 'https://precisethemes.com/support/' ) . '">'.esc_html( 'Support', 'yugen' ).'</a>',
+                'default'     => '<a target="_blank" href="' . esc_url( 'https://precisethemes.com/support-forum/forum/yugen/' ) . '">'.esc_html( 'Support', 'yugen' ).'</a>',
             )
         );
 
@@ -43,7 +43,7 @@ if ( ! function_exists( 'yugen_customizer_theme_info_controls_init' ) ) :
                 'type'        => 'custom',
                 'settings'    => 'yugen_theme_info_docs_link',
                 'section'     => 'yugen_theme_info_section',
-                'default'     => '<a target="_blank" href="' . esc_url( 'https://precisethemes.com/yugen-documentation/' ) . '">'.esc_html( 'Documentation', 'yugen' ).'</a>',
+                'default'     => '<a target="_blank" href="' . esc_url( 'https://precisethemes.com/docs/yugen/' ) . '">'.esc_html( 'Documentation', 'yugen' ).'</a>',
             )
         );
 
@@ -52,7 +52,7 @@ if ( ! function_exists( 'yugen_customizer_theme_info_controls_init' ) ) :
                 'type'        => 'custom',
                 'settings'    => 'yugen_theme_info_demo_link',
                 'section'     => 'yugen_theme_info_section',
-                'default'     => '<a target="_blank" href="' . esc_url( 'http://demo.precisethemes.com/yugen/' ) . '">'.esc_html( 'View Demos', 'yugen' ).'</a>',
+                'default'     => '<a target="_blank" href="' . esc_url( 'https://precisethemes.com/demo/yugen/' ) . '">'.esc_html( 'View Demos', 'yugen' ).'</a>',
             )
         );
     }

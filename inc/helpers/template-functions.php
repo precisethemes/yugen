@@ -330,26 +330,18 @@ if ( !function_exists( 'yugen_archive_get_title' ) ) {
 # Returns sidebar layout
 -------------------------------------------------------------------------*/
 if ( ! function_exists( 'yugen_get_sidebar_layout' ) ) {
-    function yugen_get_sidebar_layout( $post_id = '' ) {
+    function yugen_get_sidebar_layout() {
+
+        // Get post ID
+        $post_id = yugen_get_the_ID();
 
         // Global Sidebar Layout
         $global_layout = get_theme_mod( 'yugen_global_sidebar_layout', 'right-sidebar' );
 
-        // Get post ID
-        $post_id = $post_id ? $post_id : yugen_get_the_ID();
-
-
-        // Check meta first to override and return (prevents filters from overriding meta)
-        if ( $post_id && $meta = get_post_meta( $post_id, 'yugen_sidebar_layout', true ) ) {
-
-            return apply_filters( 'yugen_get_sidebar_layout', esc_attr( $meta ) );
-
-        }
-
         // Bail if front page or home
-        if ( is_front_page() || is_home() ) {
+        if ( ( is_front_page() && is_home() ) || is_front_page() ) {
 
-            $home_layout = get_theme_mod( 'yugen_home_sidebar_layout', 'default' );
+            $home_layout = get_theme_mod( 'yugen_home_sidebar_layout', 'full-width' );
 
             if ( $home_layout !== 'default' ) {
 
@@ -367,9 +359,14 @@ if ( ! function_exists( 'yugen_get_sidebar_layout' ) ) {
         // Bail if single page
         elseif ( is_page() ) {
 
-            $page_layout = get_theme_mod( 'yugen_page_sidebar_layout', 'default' );
+            $page_layout    = get_theme_mod( 'yugen_page_sidebar_layout', 'default' );
 
-            if ( $page_layout !== 'default' ) {
+            // Check meta first to override and return (prevents filters from overriding meta)
+            if ( $post_id && $meta = get_post_meta( $post_id, 'yugen_sidebar_layout', true ) ) {
+
+                $global_layout = $meta;
+
+            } elseif( $page_layout !== 'default' ) {
 
                 $global_layout = $page_layout;
 
@@ -382,18 +379,24 @@ if ( ! function_exists( 'yugen_get_sidebar_layout' ) ) {
 
             $post_layout = get_theme_mod( 'yugen_post_sidebar_layout', 'default' );
 
-            if ( $post_layout !== 'default' ) {
+            // Check meta first to override and return (prevents filters from overriding meta)
+            if ( $post_id && $meta = get_post_meta( $post_id, 'yugen_sidebar_layout', true ) ) {
+
+                $global_layout = $meta;
+
+            } elseif( $post_layout !== 'default' ) {
 
                 $global_layout = $post_layout;
 
             }
+
         }
 
         // Bail if archive page
         elseif ( is_archive() ) {
 
             // For all Archive Page
-            $archive_layout = get_theme_mod( 'yugen_archive_page_sidebar_layout', 'default' );
+            $archive_layout = get_theme_mod( 'yugen_archive_page_sidebar_layout', 'full-width' );
 
             if ( $archive_layout !== 'default' ) {
 
@@ -468,7 +471,7 @@ if ( ! function_exists( 'yugen_get_menus' ) ) {
         if ( count( $nav_menus ) ) {
             $menu_list[''] = sprintf( '&mdash; %s &mdash;', esc_html__( 'Choose a Menu', 'yugen' ) );
             foreach ( $nav_menus as $nav ) {
-                $menu_list[ $nav->term_id ] = esc_html( $nav->name );
+                $menu_list[ $nav->slug ] = esc_html( $nav->name );
             }
         } else {
             $menu_list = array( '' => esc_html__( 'No Menu set yet', 'yugen' ) );

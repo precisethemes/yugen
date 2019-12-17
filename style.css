@@ -1,6 +1,6 @@
 /*!
 Theme Name: Yugen
-Version: 0.5.0
+Version: 1.2.3
 Author: Precise Themes
 Theme URI: https://precisethemes.com/wordpress-theme/yugen/
 Author URI: https://precisethemes.com/
@@ -5136,115 +5136,6 @@ ul.primary-menu li li:hover > ul {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-/*.hero-container {*/
-	/*margin-top: 60px;*/
-/*}*/
-
-/*.hero-content .post-thumbnail {*/
-	/*position: relative;*/
-/*}*/
-
-/*.hero-content .post-thumbnail::after {*/
-	/*content: '';*/
-	/*position: absolute;*/
-	/*top: 0;*/
-	/*left: 0;*/
-	/*z-index: 99;*/
-	/*width: 100%;*/
-	/*height: 100%;*/
-/*}*/
-
-/*!**/
-  /*Hero Content*/
-/*----------------------------------*!*/
-/*.hero-content .content-wrap {*/
-	/*border: 2px solid rgba(0,0,0,1);*/
-	/*z-index: 99;*/
-	/*width: 40%;*/
-	/*padding: 64px;*/
-	/*margin: 80px;*/
-/*}*/
-
-/*.hero-container .read-more {*/
-	/*margin-top: 16px;*/
-/*}*/
-/*.hero-container .read-more a {*/
-	/*color: #999;*/
-/*}*/
-/*.hero-container .read-more a:hover {*/
-	/*color:#000;*/
-/*}*/
-/*.hero-container .read-more.trail::before {*/
-	/*background: rgba(0,0,0,.3);*/
-/*}*/
-/*.hero-container .read-more.arrow::after {*/
-	/*color: rgba(0,0,0,.3);*/
-/*}*/
-/*.hero-container .read-more.trail::after {*/
-	/*background: rgba(0,0,0,1);*/
-/*}*/
-/*.hero-container .read-more.arrow:hover::after {*/
-	/*color: rgba(0,0,0,1);*/
-/*}*/
-/*.swiper-slide.hero-content .content-wrap {*/
-	/*-webkit-transform: scale(1.25);*/
-	    /*-ms-transform: scale(1.25);*/
-	        /*transform: scale(1.25);*/
-	/*-webkit-transition: all 1s;*/
-	/*transition: all 1s;*/
-/*}*/
-
-/*.hero-content .content-wrap.center {*/
-	/*top: 0;*/
-	/*right: 0;*/
-	/*bottom: 0;*/
-	/*left: 0;*/
-	/*max-height: 100%;*/
-	/*height: 40%;*/
-	/*margin: auto;*/
-/*}*/
-
-/*.hero-content .content-wrap.top-left {*/
-	/*top: 0;*/
-	/*left: 0;*/
-/*}*/
-
-/*.hero-content .content-wrap.top-right {*/
-	/*top: 0;*/
-	/*right: 0;*/
-/*}*/
-
-/*.hero-content .content-wrap.bottom-left {*/
-	/*bottom: 0;*/
-	/*left: 0;*/
-/*}*/
-
-/*.hero-content .content-wrap.bottom-right {*/
-	/*bottom: 0;*/
-	/*right: 0;*/
-/*}*/
-
-/*.hero-content .entry-title a {*/
-	/*text-decoration: none;*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# Hero Section
---------------------------------------------------------------*/
 .hero-content .post-thumbnail::after {
 	content: '';
 	position: absolute;
@@ -5346,25 +5237,11 @@ ul.primary-menu li li:hover > ul {
 	text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
 /*--------------------------------------------------------------
 # Blog Posts
 --------------------------------------------------------------*/
-.archive .blog-posts.d-row,
-.home .blog-posts.d-row {
-
-}
-
 .archived-posts article .entry-header .post-meta-item {
-	margin-top: 40px;
+	margin-top: 32px;
 }
 
 .archived-posts article .entry-content {
@@ -5734,10 +5611,6 @@ ul.primary-menu li li:hover > ul {
 	   -moz-box-pack: end;
 	        justify-content: flex-end;
 }
-
-/*.single-post .site-main > article > .entry-header .entry-title {*/
-/*margin-top: 64px;*/
-/*}*/
 
 .single-post .site-main > article > .entry-header .post-meta-item {
 	margin-top: 12px;
@@ -6256,7 +6129,6 @@ ul.primary-menu li li:hover > ul {
 }
 
 .footer-copyright {
-	width: 100%;
 	text-align: center;
 }
 

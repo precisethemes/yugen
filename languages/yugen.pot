@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yugen\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-04 13:02+0000\n"
+"POT-Creation-Date: 2018-10-04 08:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,10 +14,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:97
+msgid " Upgrade to Pro"
+msgstr ""
+
 #. 1: Taxonomy singular name, 2: Current taxonomy term
 #: inc/helpers/template-functions.php:311
 #, php-format
 msgid "%1$s: %2$s"
+msgstr ""
+
+#: template-parts/footer/footer-bar.php:55
+msgid ""
+"&nbsp;& choose menu to display in footer bar from ( Appearance - > Customize "
+"-> Footer - > Footer Menu )"
 msgstr ""
 
 #. used between list items, there is a space after the comma
@@ -27,6 +37,11 @@ msgstr ""
 
 #: inc/libraries/breadcrumbs.php:258
 msgid "404 Not Found"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:76
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Yugen</a>"
 msgstr ""
 
 #: inc/helpers/template-functions.php:307
@@ -64,17 +79,42 @@ msgstr ""
 msgid "<label>Year %s"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:390
+#, php-format
+msgid "<span>View %s Pro Details"
+msgstr ""
+
 #: inc/framework/customizer/panel/social.php:43
 msgid "Add Social Profile"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:139
+#: inc/framework/customizer/panel/archive.php:140
 msgid "Add space to left and right side of each post."
 msgstr ""
 
 #: inc/framework/widgets/widget-functions.php:21
 #: inc/framework/widgets/widget-functions.php:42
 msgid "Add widgets here."
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:338
+msgid "Advanced 404 Error Page Editor"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:295
+msgid "Advanced Archive/Blog Settings"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:229
+msgid "Advanced Header Settings"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:331
+msgid "Advanced Post/Page Options"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:319
+msgid "Advanced Post/Page Settings"
 msgstr ""
 
 #: inc/helpers/template-functions.php:239
@@ -98,11 +138,11 @@ msgstr ""
 msgid "Back to Top"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:45
+#: inc/framework/customizer/panel/archive.php:46
 msgid "Background Image"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:70
+#: inc/framework/customizer/panel/archive.php:71
 #: inc/framework/customizer/panel/header.php:46
 msgid "Background Overlay"
 msgstr ""
@@ -124,13 +164,21 @@ msgstr ""
 msgid "Browse:"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:265
+msgid "Built-in Custom Widgets"
+msgstr ""
+
 #: inc/framework/customizer/panel/general.php:356
-#: inc/framework/customizer/panel/hero.php:99
+#: inc/framework/customizer/panel/hero.php:102
 msgid "Button Text"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:104
+#: inc/framework/customizer/panel/hero.php:107
 msgid "Button URL"
+msgstr ""
+
+#: inc/framework/customizer/customizer.php:139
+msgid "Buy PRO Version"
 msgstr ""
 
 #: inc/framework/customizer/panel/post.php:80
@@ -141,7 +189,15 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:100
+#: inc/framework/welcome-screen/class-welcome-screen.php:95
+msgid "Changelog"
+msgstr ""
+
+#: inc/helpers/template-functions.php:469
+msgid "Choose a Menu"
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:101
 msgid "Color Scheme"
 msgstr ""
 
@@ -153,8 +209,12 @@ msgstr ""
 msgid "Column Settings"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:138
+#: inc/framework/customizer/panel/archive.php:139
 msgid "Column Spacing"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:205
+msgid "Coming Soon Page"
 msgstr ""
 
 #. %s is the page number.
@@ -182,6 +242,10 @@ msgstr[1] ""
 
 #: inc/libraries/tgm/tgm.php:31
 msgid "Contact Form 7"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:368
+msgid "Contact Form 7 Compatible"
 msgstr ""
 
 #: inc/framework/customizer/panel/hero.php:61
@@ -227,7 +291,7 @@ msgid "Copyright Text"
 msgstr ""
 
 #. If there are characters in your language that are not supported by Barlow, translate this to 'off'. Do not translate into your own language.
-#: functions.php:189
+#: functions.php:181
 msgctxt "Cormorant Garamond font: on or off"
 msgid "on"
 msgstr ""
@@ -246,7 +310,7 @@ msgctxt "daily archives date format"
 msgid "j"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:105
+#: inc/framework/customizer/panel/archive.php:106
 msgid "Dark"
 msgstr ""
 
@@ -254,7 +318,7 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:206
+#: inc/framework/customizer/panel/archive.php:221
 msgid ""
 "Default layout is inherit from global settings. Assign new default layout "
 "for all archive pages."
@@ -286,7 +350,11 @@ msgstr ""
 msgid "Delicious"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:245
+#: inc/framework/welcome-screen/class-welcome-screen.php:143
+msgid "Demo content"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:248
 msgid "Description Typography"
 msgstr ""
 
@@ -297,6 +365,14 @@ msgstr ""
 
 #: inc/helpers/template-array.php:42
 msgid "Digg"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:62
+msgid "Dismiss"
+msgstr ""
+
+#: inc/framework/customizer/panel/footer.php:89
+msgid "Display a menu"
 msgstr ""
 
 #: inc/framework/widgets/about-widget.php:17
@@ -315,6 +391,10 @@ msgstr ""
 msgid "Display Tagline"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:127
+msgid "Documentation & Installation Guide"
+msgstr ""
+
 #: inc/framework/customizer/panel/footer.php:63
 #: inc/framework/customizer/panel/page.php:46
 #: inc/framework/customizer/panel/post.php:51
@@ -328,7 +408,7 @@ msgid "Dribbble"
 msgstr ""
 
 #. %s: Name of current post. Only visible to screen readers
-#: template-parts/page/content-page.php:98 template-parts/post/content.php:127
+#: template-parts/page/content-page.php:98 template-parts/post/content.php:140
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
@@ -356,11 +436,15 @@ msgstr ""
 msgid "Featured Image"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:259
+msgid "Featured Posts Slider for Homepage"
+msgstr ""
+
 #: inc/helpers/template-array.php:45
 msgid "Flickr"
 msgstr ""
 
-#: functions.php:104 inc/framework/customizer/panel/footer.php:16
+#: inc/framework/customizer/panel/footer.php:16
 msgid "Footer"
 msgstr ""
 
@@ -370,6 +454,10 @@ msgstr ""
 
 #: inc/framework/customizer/panel/footer.php:25
 msgid "Footer Bar Separator"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:362
+msgid "Footer Copyright Editor"
 msgstr ""
 
 #: inc/framework/customizer/panel/footer.php:70
@@ -385,6 +473,14 @@ msgstr ""
 msgid "Foursquare"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:200
+msgid "Free Version"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:96
+msgid "Free vs Pro"
+msgstr ""
+
 #. Name of the template
 #: inc/helpers/template-array.php:25
 msgid "Full Width"
@@ -394,8 +490,31 @@ msgstr ""
 msgid "General Settings"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:57
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:35
+#: inc/framework/welcome-screen/class-welcome-screen.php:36
+#: inc/framework/welcome-screen/class-welcome-screen.php:93
+msgid "Getting Started"
+msgstr ""
+
 #: inc/helpers/template-array.php:47
 msgid "Github"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:167
+msgid "Go to Customizer"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:156
+msgid "Go to the automatic importer"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:152
+msgid "Go to the importer"
 msgstr ""
 
 #: inc/helpers/template-array.php:48
@@ -426,12 +545,28 @@ msgstr ""
 msgid "H6"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:112
+#, php-format
+msgid ""
+"Have you ❤ using %1$s? Please rate ⭐⭐⭐⭐⭐ our theme %2$s on WordPress.org ☺ "
+"Thank you"
+msgstr ""
+
 #: inc/framework/customizer/panel/header.php:16
 msgid "Header"
 msgstr ""
 
 #: inc/framework/customizer/panel/header.php:23
 msgid "Header Image"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:241
+msgid "Header Separator"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:81
+#, php-format
+msgid "Hello, %s,"
 msgstr ""
 
 #: inc/framework/customizer/panel/hero.php:16
@@ -441,6 +576,10 @@ msgstr ""
 #: template-parts/hero/content-hero.php:13
 #: inc/framework/customizer/panel/hero.php:69
 msgid "Hero Short Description Here."
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:253
+msgid "Hero Slider Support"
 msgstr ""
 
 #: template-parts/hero/content-hero.php:12
@@ -482,12 +621,28 @@ msgstr ""
 msgid "Icon"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:78
+#: inc/framework/customizer/panel/hero.php:81
 msgid "Image"
 msgstr ""
 
 #: inc/helpers/template-array.php:49
 msgid "Instagram"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:151
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:146
+msgid ""
+"Install the following plugin and then come back here to access the importer. "
+"With it you can import all demo content and change your homepage and blog "
+"page to the ones from our demo site, automatically. It will also assign a "
+"menu."
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:145
+msgid "Install:  One Click Demo Import"
 msgstr ""
 
 #: 404.php:34
@@ -515,7 +670,7 @@ msgstr ""
 msgid "Left Sidebar"
 msgstr ""
 
-#: inc/framework/customizer/panel/archive.php:104
+#: inc/framework/customizer/panel/archive.php:105
 msgid "Light"
 msgstr ""
 
@@ -545,6 +700,14 @@ msgstr ""
 msgid "Medium"
 msgstr ""
 
+#: template-parts/footer/footer-bar.php:54
+msgid "Menu"
+msgstr ""
+
+#: template-parts/footer/footer-bar.php:52
+msgid "Menu not found! Assign a&nbsp;"
+msgstr ""
+
 #. Minute archive title. %s is the minute time format.
 #: inc/libraries/breadcrumbs.php:267
 #, php-format
@@ -572,24 +735,52 @@ msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:165
+msgid ""
+"Most of theme settings customization options are available through theme "
+"customizer. To setup and customise your website elements and sections."
+msgstr ""
+
 #: 404.php:46
 msgid "Most Used Categories"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:113
+#: inc/framework/welcome-screen/class-welcome-screen.php:137
+#: inc/framework/welcome-screen/class-welcome-screen.php:183
+#, php-format
+msgid ""
+"Need help to setup your website with %s theme? Visit our support forum and "
+"browse support topics or create new, one of our support member will follow "
+"and help you to solver your issue."
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:433
+#, php-format
+msgid ""
+"Need help to upgrade your website with %s Pro theme for more exciting "
+"features and additional theme options."
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:389
+#, php-format
+msgid ""
+"Need more features and customization option? Try Pro Version of %s theme."
+msgstr ""
+
+#: inc/framework/customizer/customizer.php:138
+msgid "Need More Options?"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:116
 msgid "New Window"
 msgstr ""
 
-#: template-parts/pagination/content-pagination.php:35
-msgid "Next"
-msgstr ""
-
-#: template-parts/post/post-navigation.php:66
+#: template-parts/post/content.php:113 template-parts/post/content.php:115
 msgid "Next Post"
 msgstr ""
 
-#: template-parts/post/post-navigation.php:68
-msgid "Next post"
+#: inc/helpers/template-functions.php:474
+msgid "No Menu set yet"
 msgstr ""
 
 #: inc/framework/meta-boxes/class-meta-box.php:115
@@ -607,6 +798,14 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:350
+msgid "Number of Footer Widgets Position Layouts"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:223
+msgid "Number of Header Layouts"
+msgstr ""
+
 #: inc/libraries/tgm/tgm.php:21
 msgid "One Click Demo Import"
 msgstr ""
@@ -618,10 +817,10 @@ msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr ""
 
 #: inc/helpers/theme-hooks.php:131
-msgid "Oops! That page can't be found."
+msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:109
+#: inc/framework/customizer/panel/hero.php:112
 msgid "Open Button URL"
 msgstr ""
 
@@ -629,12 +828,8 @@ msgstr ""
 msgid "Other"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:134
+#: inc/framework/customizer/panel/hero.php:137
 msgid "Overlay Background Color"
-msgstr ""
-
-#: template-parts/pagination/content-pagination.php:36
-msgid "Page"
 msgstr ""
 
 #. %s is the page number.
@@ -653,6 +848,18 @@ msgstr ""
 
 #: inc/helpers/template-array.php:53
 msgid "Pinterest"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:155
+msgid "Plugin installed and active!"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:375
+msgid "Polylang Support in Customizer"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:344
+msgid "Pop up Box"
 msgstr ""
 
 #. %s: post date.
@@ -711,15 +918,11 @@ msgstr ""
 msgid "Post Navigation"
 msgstr ""
 
-#: template-parts/post/post-navigation.php:14
-msgid "Post navigation"
+#: inc/framework/welcome-screen/class-welcome-screen.php:307
+msgid "Post Navigation Layout"
 msgstr ""
 
-#: template-parts/pagination/content-pagination.php:21
-msgid "Posts navigation"
-msgstr ""
-
-#: inc/framework/customizer/panel/archive.php:118
+#: inc/framework/customizer/panel/archive.php:119
 msgid "Posts Per Row"
 msgstr ""
 
@@ -727,20 +930,16 @@ msgstr ""
 msgid "Precise Themes"
 msgstr ""
 
-#: template-parts/pagination/content-pagination.php:34
-msgid "Previous"
-msgstr ""
-
-#: template-parts/post/post-navigation.php:32
+#: template-parts/post/content.php:110 template-parts/post/content.php:112
 msgid "Previous Post"
-msgstr ""
-
-#: template-parts/post/post-navigation.php:34
-msgid "Previous post"
 msgstr ""
 
 #: functions.php:97
 msgid "Primary"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:201
+msgid "Pro Version"
 msgstr ""
 
 #: inc/framework/customizer/panel/social.php:64
@@ -753,6 +952,10 @@ msgstr ""
 
 #: inc/framework/widgets/social-profiles-widget.php:20
 msgid "PT: Social Profiles"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:383
+msgid "Quick Ticket Support"
 msgstr ""
 
 #: template-parts/hero/content-hero.php:14
@@ -768,7 +971,7 @@ msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:79
+#: inc/framework/customizer/panel/hero.php:82
 msgid "Recommend image width is 1800px."
 msgstr ""
 
@@ -790,7 +993,7 @@ msgid "Right Sidebar"
 msgstr ""
 
 #. If there are characters in your language that are not supported by Barlow Semi Condensed, translate this to 'off'. Do not translate into your own language.
-#: functions.php:184
+#: functions.php:176
 msgctxt "Roboto font: on or off"
 msgid "on"
 msgstr ""
@@ -799,7 +1002,7 @@ msgstr ""
 msgid "Rounded Image"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:112
+#: inc/framework/customizer/panel/hero.php:115
 msgid "Same Window"
 msgstr ""
 
@@ -823,12 +1026,24 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:94
+#: inc/framework/customizer/panel/hero.php:97
 msgid "Short Description"
 msgstr ""
 
+#: inc/framework/customizer/panel/archive.php:206
+msgid "Show grey background colored box in absence of post thumbnail."
+msgstr ""
+
+#: inc/framework/customizer/panel/archive.php:205
+msgid "Show Placeholder"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:313
+msgid "Show Related Posts"
+msgstr ""
+
 #: inc/framework/widgets/widget-functions.php:19
-#: inc/framework/customizer/panel/archive.php:25
+#: inc/framework/customizer/panel/archive.php:26
 #: inc/framework/customizer/panel/general.php:24
 #: inc/framework/customizer/panel/page.php:23
 #: inc/framework/customizer/panel/post.php:24
@@ -836,7 +1051,7 @@ msgid "Sidebar"
 msgstr ""
 
 #: inc/framework/meta-boxes/class-meta-box.php:321
-#: inc/framework/customizer/panel/archive.php:205
+#: inc/framework/customizer/panel/archive.php:220
 #: inc/framework/customizer/panel/homepage.php:18
 #: inc/framework/customizer/panel/page.php:63
 #: inc/framework/customizer/panel/post.php:96
@@ -867,6 +1082,14 @@ msgstr ""
 msgid "Slack"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:217
+msgid "Slide in Box"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:247
+msgid "Smooth Page Scroll"
+msgstr ""
+
 #: inc/framework/customizer/panel/social.php:16
 #: inc/framework/customizer/panel/social.php:48
 msgid "Social"
@@ -880,26 +1103,72 @@ msgstr ""
 msgid "Social Profiles"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:325
+msgid "Social Share for Post/Page"
+msgstr ""
+
 #: template-parts/content-none.php:37
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:356
+msgid "Sortable Footer Bar Elements"
+msgstr ""
+
 #: inc/helpers/template-array.php:57
 msgid "Stackoverflow"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:89
+#: inc/framework/welcome-screen/class-welcome-screen.php:235
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:271
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/framework/customizer/panel/hero.php:92
 msgid "Subtitle"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:205
+#: inc/framework/customizer/panel/hero.php:208
 msgid "Subtitle Typography"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:94
+#: inc/framework/welcome-screen/class-welcome-screen.php:135
+#: inc/framework/welcome-screen/class-welcome-screen.php:139
+#: inc/framework/welcome-screen/class-welcome-screen.php:181
+msgid "Support Forum"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:382
+msgid "Support via Forum"
 msgstr ""
 
 #: inc/framework/customizer/panel/post.php:81
 msgid "Tags "
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:129
+msgid ""
+"Theme documentation page will guide you to install and configure theme quick "
+"and easy. We have included details, screenshots and stepwise description "
+"about theme installation guides and tutorials."
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:199
+msgid "Theme Features"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:163
+msgid "Theme Option & Customization"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:381
+msgid "Theme Support"
 msgstr ""
 
 #: inc/framework/customizer/panel/theme-info.php:15
@@ -912,6 +1181,11 @@ msgid ""
 "tags, authors and search result page."
 msgstr ""
 
+#: template-parts/blog/content.php:47
+#: inc/framework/customizer/panel/archive.php:25
+msgid "Thumbnail Placeholder"
+msgstr ""
+
 #: inc/framework/widgets/social-profiles-widget.php:34
 msgid ""
 "Tip: This widget is used to display social profiles for that you have to set "
@@ -921,14 +1195,18 @@ msgstr ""
 #: inc/framework/widgets/about-widget.php:39
 #: inc/framework/widgets/social-profiles-widget.php:40
 #: inc/framework/widgets/social-profiles-widget.php:47
-#: inc/framework/customizer/panel/hero.php:84
+#: inc/framework/customizer/panel/hero.php:87
 #: inc/framework/customizer/panel/page.php:51
 #: inc/framework/customizer/panel/post.php:56
 msgid "Title"
 msgstr ""
 
-#: inc/framework/customizer/panel/hero.php:164
+#: inc/framework/customizer/panel/hero.php:167
 msgid "Title Typography"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:211
+msgid "Top Header Bar"
 msgstr ""
 
 #. %1$s: smiley
@@ -949,8 +1227,33 @@ msgstr ""
 msgid "Typography"
 msgstr ""
 
+#: inc/framework/welcome-screen/class-welcome-screen.php:289
+msgid "Typography Option (850+ Google Fonts)"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:301
+msgid "Unique Page Header"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:283
+msgid "Unique Sidebar Selection"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:277
+msgid "Unlimited Widget Area (Sidebar) Generator"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:431
+#: inc/framework/welcome-screen/class-welcome-screen.php:435
+msgid "Upgrade to Pro"
+msgstr ""
+
 #: inc/framework/customizer/panel/social.php:69
 msgid "URL"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:131
+msgid "View Documentation"
 msgstr ""
 
 #: inc/helpers/template-array.php:60
@@ -959,6 +1262,10 @@ msgstr ""
 
 #: inc/framework/customizer/panel/hero.php:23
 msgid "Visibility"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:185
+msgid "Visit Support Forum"
 msgstr ""
 
 #. Weekly archive title. %s is the week date format.
@@ -970,6 +1277,23 @@ msgstr ""
 #: inc/libraries/breadcrumbs.php:809
 msgctxt "weekly archives date format"
 msgid "W"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:82
+#, php-format
+msgid "Welcome to %1$s version %2$s"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:53
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/framework/welcome-screen/class-welcome-screen.php:54
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s ! To fully take advantage of the best "
+"our theme can offer please make sure you visit our %2$s welcome page%3$s."
 msgstr ""
 
 #: inc/framework/customizer/panel/footer.php:23
@@ -998,8 +1322,9 @@ msgid ""
 "theme that helps you to showcase your posts super clean and beautiful and "
 "suitable for creative writers and bloggers ranging from Fashion, Travel, "
 "Music, Car, Real State, Beauty, Design, Food, Wedding, Movie, Photography, "
-"Technology and any other niche. DEMO: https://precisethemes.com/demo/yugen-"
-"free/"
+"Technology and any other types of blog. More Details at: https:"
+"//precisethemes.com/wordpress-theme/yugen/ and Live Demo at: https:"
+"//precisethemes.com/demo/yugen/"
 msgstr ""
 
 #: inc/libraries/back-compat.php:28 inc/libraries/back-compat.php:38

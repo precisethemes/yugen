@@ -61,7 +61,7 @@ if ( ! function_exists( 'yugen_customizer_hero_controls_init' ) ) :
                     'value' => esc_attr__('Content', 'yugen' ),
                 ),
                 'settings'    => 'yugen_repeatable_hero_slides',
-                'default'      => array(
+                'default'     => array(
                     array(
                         'hero_image'        => YUGEN_THEME_URI . '/assets/back-end/images/hero/hero-default.png',
                         'hero_title'        => esc_attr__( 'Hero Title', 'yugen' ),
@@ -71,6 +71,9 @@ if ( ! function_exists( 'yugen_customizer_hero_controls_init' ) ) :
                         'hero_button_link'  => '#',
                         'hero_button_link_open' => '_self',
                     ),
+                ),
+                'choices'       => array(
+                    'limit'     => 1
                 ),
                 'fields' => array(
                     'hero_image' => array(
@@ -129,7 +132,7 @@ if ( ! function_exists( 'yugen_customizer_hero_controls_init' ) ) :
         yugen_add_field(
             array(
                 'type'      =>  'color',
-                'settings'  =>  'yugen_hero_slider_overlay_bg_color',
+                'settings'  =>  'yugen_hero_overlay_bg_color',
                 'section'   =>  'yugen_hero_content_section',
                 'label'     =>  esc_html__( 'Overlay Background Color', 'yugen' ),
                 'default'   =>  'rgba(255,255,255,.5)',

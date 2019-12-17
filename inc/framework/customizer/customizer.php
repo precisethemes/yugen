@@ -40,6 +40,7 @@ require YUGEN_THEME_DIR . '/inc/framework/customizer/panel/archive.php';
 require YUGEN_THEME_DIR . '/inc/framework/customizer/panel/post.php';
 require YUGEN_THEME_DIR . '/inc/framework/customizer/panel/page.php';
 require YUGEN_THEME_DIR . '/inc/framework/customizer/panel/footer.php';
+require YUGEN_THEME_DIR . '/inc/framework/customizer/panel/theme-info.php';
 
 /**
  * Add postMessage support for site title and description for the Theme Customizer.
@@ -59,7 +60,7 @@ function yugen_customize_register( $wp_customize ) {
     /**
      * Upsell customizer section.
      *
-     * @since  0.1.0
+     * @since  1.0.0
      * @access public
      */
     class Yugen_Upsell_Section extends WP_Customize_Section {
@@ -67,7 +68,7 @@ function yugen_customize_register( $wp_customize ) {
         /**
          * The type of customize section being rendered.
          *
-         * @since  0.1.0
+         * @since  1.0.0
          * @access public
          * @var    string
          */
@@ -76,7 +77,7 @@ function yugen_customize_register( $wp_customize ) {
         /**
          * Custom button text to output.
          *
-         * @since  0.1.0
+         * @since  1.0.0
          * @access public
          * @var    string
          */
@@ -85,7 +86,7 @@ function yugen_customize_register( $wp_customize ) {
         /**
          * Custom pro button URL.
          *
-         * @since  0.1.0
+         * @since  1.0.0
          * @access public
          * @var    string
          */
@@ -94,7 +95,7 @@ function yugen_customize_register( $wp_customize ) {
         /**
          * Add custom parameters to pass to the JS via JSON.
          *
-         * @since  0.1.0
+         * @since  1.0.0
          * @access public
          * @return void
          */
@@ -110,7 +111,7 @@ function yugen_customize_register( $wp_customize ) {
         /**
          * Outputs the Underscore.js template.
          *
-         * @since  0.1.0
+         * @since  1.0.0
          * @access public
          * @return void
          */
@@ -131,16 +132,16 @@ function yugen_customize_register( $wp_customize ) {
     $wp_customize->register_section_type( 'Yugen_Upsell_Section' );
 
     // Upsell section.
-//    $wp_customize->add_section(
-//        new Yugen_Upsell_Section( $wp_customize, 'custom_theme_upsell',
-//            array(
-//                'title'    => esc_html__( 'Need More Options?', 'yugen' ),
-//                'pro_text' => esc_html__( 'Buy PRO Version', 'yugen' ),
-//                'pro_url'  => 'https://precisethemes.com/downloads/yugen-pro/',
-//                'priority' => 1,
-//            )
-//        )
-//    );
+    $wp_customize->add_section(
+        new Yugen_Upsell_Section( $wp_customize, 'custom_theme_upsell',
+            array(
+                'title'    => esc_html__( 'Need More Options?', 'yugen' ),
+                'pro_text' => esc_html__( 'Buy PRO Version', 'yugen' ),
+                'pro_url'  => esc_url( 'https://precisethemes.com/wordpress-theme/yugen-pro/' ),
+                'priority' => 1,
+            )
+        )
+    );
 
     if ( isset( $wp_customize->selective_refresh ) ) {
         $wp_customize->selective_refresh->add_partial( 'blogname', array(

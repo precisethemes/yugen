@@ -22,6 +22,7 @@ if ( ! function_exists( 'yugen_customizer_blog_controls_init' ) ) :
         $sections = array(
             'yugen_global_page_header_section'              => array( esc_attr__( 'Page Header', 'yugen' ), '' ),
             'yugen_archive_page_column_section'             => array( esc_attr__( 'Column Settings', 'yugen' ), '' ),
+            'yugen_archive_page_thumbnail_section'          => array( esc_attr__( 'Thumbnail Placeholder', 'yugen' ), '' ),
             'yugen_archive_page_sidebar_section'            => array( esc_attr__( 'Sidebar', 'yugen' ), '' ),
         );
         foreach ( $sections as $section_id => $section ) {
@@ -196,6 +197,20 @@ if ( ! function_exists( 'yugen_customizer_blog_controls_init' ) ) :
         );
 
         /*--------------------------------------------------------------
+        # Thumbnail Placeholder
+        --------------------------------------------------------------*/
+        yugen_add_field(
+            array(
+                'type'        => 'toggle',
+                'label'       => esc_html__( 'Show Placeholder', 'yugen' ),
+                'description' => esc_html__( 'Show grey background colored box in absence of post thumbnail.', 'yugen' ),
+                'settings'    => 'yugen_archive_page_thumbnail_placeholder',
+                'section'     => 'yugen_archive_page_thumbnail_section',
+                'default'     => 1,
+            )
+        );
+
+        /*--------------------------------------------------------------
         # Archive/Blog Sidebar Layout
         --------------------------------------------------------------*/
         yugen_add_field(
@@ -205,7 +220,7 @@ if ( ! function_exists( 'yugen_customizer_blog_controls_init' ) ) :
                 'label'       => esc_html__( 'Sidebar Layout', 'yugen' ),
                 'description' => esc_html__( 'Default layout is inherit from global settings. Assign new default layout for all archive pages.','yugen' ),
                 'section'     => 'yugen_archive_page_sidebar_section',
-                'default'     => 'default',
+                'default'     => 'full-width',
                 'choices'     => array(
                     'default'           => YUGEN_THEME_URI . '/assets/back-end/images/sidebar/default-sidebar.svg',
                     'left-sidebar'      => YUGEN_THEME_URI . '/assets/back-end/images/sidebar/left-sidebar.svg',

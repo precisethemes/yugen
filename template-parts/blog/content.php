@@ -8,8 +8,9 @@
  */
 
 
-$posts_per_column       = get_theme_mod( 'yugen_archive_page_col_per_row_desktop', 'w-33' );
-$url_link               = get_the_permalink();
+$posts_per_column               = get_theme_mod( 'yugen_archive_page_col_per_row_desktop', 'w-33' );
+$url_link                       = get_the_permalink();
+$enable_thumbnail_placeholder   = get_theme_mod( 'yugen_archive_page_thumbnail_placeholder', true );
 
 ?>
 
@@ -17,7 +18,7 @@ $url_link               = get_the_permalink();
 
     <header class="entry-header d-flex flex-wrap justify-content-between align-items-center">
 
-        <?php if ( has_post_thumbnail() ) :
+        <?php if ( has_post_thumbnail() || ( true == $enable_thumbnail_placeholder ) ) :
 
             $post_format_class  = array( 'd-flex position-absolute justify-content-center align-items-center post-format-icon opacity-0 invisible transition-35s' ); ?>
 
@@ -32,11 +33,19 @@ $url_link               = get_the_permalink();
                         $thumbnail_size = 'yugen-768-3x4';
                     }
 
-                    the_post_thumbnail( $thumbnail_size, array(
-                        'alt' => the_title_attribute( array(
-                            'echo' => false,
-                        ) ),
-                    ) );
+                    if ( has_post_thumbnail() ) {
+
+                        the_post_thumbnail( $thumbnail_size, array(
+                            'alt' => the_title_attribute( array(
+                                'echo' => false,
+                            ) ),
+                        ) );
+                    }
+                    elseif ( $enable_thumbnail_placeholder == true ) {
+
+                        $img_src = YUGEN_THEME_URI . '/assets/front-end/images/thumbnail-placeholder-3x4.svg';
+                        echo '<img src="'.esc_url( $img_src ).'" alt="'.esc_attr__( 'Thumbnail Placeholder','yugen' ).'">';
+                    }
 
                     ?>
 

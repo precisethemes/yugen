@@ -7,7 +7,7 @@
 // Default values for 'my_setting' theme mod.
 $defaults = array(
     array(
-        'hero_image'        => YUGEN_THEME_URI . '/assets/back-end/images/footer/footer-layout-widgets.svg',
+        'hero_image'        => YUGEN_THEME_URI . '/assets/back-end/images/hero/hero-default.png',
         'hero_title'        => esc_attr__( 'Hero Title', 'yugen' ),
         'hero_subtitle'     => esc_attr__( 'Hero Subtitle', 'yugen' ),
         'hero_desc'         => esc_attr__( 'Hero Short Description Here.', 'yugen' ),
@@ -16,7 +16,7 @@ $defaults = array(
         'hero_button_link_open' => '_self',
     ),
 );
-$repeatable_hero_slides = get_theme_mod( 'yugen_repeatable_hero_slides' );
+$repeatable_hero_slides = get_theme_mod( 'yugen_repeatable_hero_slides', $defaults );
 
 if ( !empty( $repeatable_hero_slides ) ) : ?>
 

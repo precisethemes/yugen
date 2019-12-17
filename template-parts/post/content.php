@@ -39,24 +39,21 @@ $footer_class[]     = 'text-left'; ?>
 
                     if ( yugen_has_secondary_content_class() == 'full-width' ) {
                         $image_size = 'yugen-1800-16x9';
-                    }
-                    ?>
+                    } ?>
 
                     <figure class="post-featured-image post-thumbnail">
-                        <?php
-                        the_post_thumbnail( $image_size, array(
+
+                        <?php the_post_thumbnail( $image_size, array(
                             'alt' => the_title_attribute( array(
                                 'echo' => false,
                             ) ),
-                        ) );
-                        ?>
+                        ) ); ?>
+
                     </figure>
 
-                <?php
+                <?php elseif ( $header_element == 'post-title' ) :
 
-                elseif ( $header_element == 'post-title' ) :
-
-                    the_title( '<h1 class="entry-title w-100 mt-64">', '</h1>' );
+                    the_title( '<h1 class="entry-title w-100">', '</h1>' );
 
                 endif;
 

@@ -18,7 +18,7 @@ if ( ! function_exists( 'yugen_homepage_controls_init' ) ) :
                 'label'       => esc_html__( 'Sidebar Layout', 'yugen' ),
                 'description' => esc_html__( 'Default layout is inherit from global settings. Assign new default layout for home or static home page.','yugen' ),
                 'section'     => 'static_front_page',
-                'default'     => 'default',
+                'default'     => 'full-width',
                 'choices'     => array(
                     'default'           => YUGEN_THEME_URI . '/assets/back-end/images/sidebar/default-sidebar.svg',
                     'left-sidebar'      => YUGEN_THEME_URI . '/assets/back-end/images/sidebar/left-sidebar.svg',

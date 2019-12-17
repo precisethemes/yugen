@@ -152,7 +152,7 @@ if ( ! class_exists( 'Yugen_Post_Global_Meta_Box' ) ) {
                             $tab_count++;
                             // Define tab title
                             $tab_title = $tab['title'] ? $tab['title'] : esc_html__( 'Other', 'yugen' ); ?>
-                            <li class="tab-link <?php if ( 1 == $tab_count ) { echo 'active'; }?>" data-tab="setting-tab-<?php echo esc_js( $tab_count ); ?>"><?php echo esc_html( $tab_title ); ?></li>
+                            <li class="tab-link" data-tab="setting-tab-<?php echo esc_js( $tab_count ); ?>"><?php echo esc_html( $tab_title ); ?></li>
                         <?php } ?>
 
                     </ul>
@@ -165,7 +165,7 @@ if ( ! class_exists( 'Yugen_Post_Global_Meta_Box' ) ) {
 
                             $section_count++; ?>
 
-                            <div id="setting-tab-<?php echo esc_attr( $section_count ); ?>" class="setting-tab <?php if ( 1 == $section_count ) { echo 'active'; }?>">
+                            <div id="setting-tab-<?php echo esc_attr( $section_count ); ?>" class="setting-tab">
                                 <?php
                                 // Loop through sections and store meta output
                                 foreach ( $tab['settings'] as $setting ) {

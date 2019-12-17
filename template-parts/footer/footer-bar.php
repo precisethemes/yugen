@@ -47,8 +47,13 @@ if ( ! empty( $content_order_lists ) ) : ?>
                                 }
                                 else {
                                     $menus_link = admin_url('nav-menus.php');
-                                    printf( __( '<p class="m-0">Menu not found! Assign a <a href="%s" target="_blank">Menu</a> & choose menu to display in footer bar from ( Appearance - > Customize -> Footer - > Footer Menu )</p>', 'yugen' ), esc_url( $menus_link ) );
 
+                                    printf( '<p class="m-0">%1$s<a href="%2$s" target="_blank">%3$s</a>%4$s</p>',
+                                        esc_html__( 'Menu not found! Assign a&nbsp;', 'yugen' ),
+                                        esc_url( $menus_link ),
+                                        esc_html__( 'Menu', 'yugen' ),
+                                        esc_html__( '&nbsp;& choose menu to display in footer bar from ( Appearance - > Customize -> Footer - > Footer Menu )', 'yugen' )
+                                    );
                                 } ?>
                             </div><!-- .footer-menu -->
 
