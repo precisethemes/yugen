@@ -1,7 +1,7 @@
 === Yugen ===
 
 Contributors: Precise Themes
-Version: 1.2.3
+Version: 1.2.4
 Requires at least: 4.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -126,6 +126,9 @@ Description: Yugen is a clean, simple, minimal, modern & stylish WordPress blog 
 
 
 === Changelog ===
+Version 1.2.4 - 2019-12-17
+* Fixed google search console breadcrumb issue.
+
 Version 1.2.3 - 2019-04-18
 * Fixed theme switcher option on customizer.
 
