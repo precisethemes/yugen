@@ -23,11 +23,11 @@
 
                 if ( is_front_page() && is_home() ) : ?>
 
-                    <h1 class="site-title"><a class="d-inline-block td-none outline-none" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html( $site_title ); ?></a></h1>
+                    <h1 class="site-title"><a class="d-inline-block td-none" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html( $site_title ); ?></a></h1>
 
                 <?php else : ?>
 
-                    <p class="site-title"><a class="d-inline-block td-none outline-none" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html( $site_title ); ?></a></p>
+                    <p class="site-title"><a class="d-inline-block td-none" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html( $site_title ); ?></a></p>
 
                 <?php endif;
 

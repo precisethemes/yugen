@@ -188,7 +188,7 @@ textarea {
 	-webkit-border-radius: 3px;
 	        border-radius: 3px;
 	color: #666;
-	outline: none;
+	/*outline: none;*/
 }
 
 input[type="text"]:focus,
@@ -245,7 +245,7 @@ input[type="submit"],
 	padding: 10px 24px;
 	margin: 10px 0;
 	cursor: pointer;
-	outline: none;
+	/*outline: none;*/
 	-webkit-transition: all .35s;
 	transition: all .35s;
 }
@@ -278,11 +278,11 @@ a:hover, a:focus, a:active {
 }
 
 a:focus {
-	outline: none;
+	outline: thin dotted;
 }
 
 a:hover, a:active {
-	outline: none;
+	outline: 0;
 }
 
 /*--------------------------------------------------------------
@@ -4949,7 +4949,7 @@ ul.primary-menu li {
 ul.primary-menu li a {
 	display: block;
 	text-decoration: none;
-	outline: none;
+	/*outline: none;*/
 	-webkit-transition: color .5s;
 	transition: color .5s;
 	color: #000;
@@ -4990,7 +4990,8 @@ ul.primary-menu li:hover > a {
 	}
 }
 
-ul.primary-menu li:hover > ul {
+ul.primary-menu li:hover > ul,
+ul.primary-menu li:focus-within > ul {
 	top: 100%;
 	visibility: visible;
 	opacity: 1;
@@ -5009,7 +5010,8 @@ ul.primary-menu li li ul {
 	left: 100%;
 }
 
-ul.primary-menu li li:hover > ul {
+ul.primary-menu li li:hover > ul,
+ul.primary-menu li li:focus-within > ul {
 	top: -1px;
 }
 
