@@ -126,6 +126,7 @@ Description: Yugen is a clean, simple, minimal, modern & stylish WordPress blog 
 
 
 === Changelog ===
+
 Version 1.2.5 - 2020-02-09
 * Added `wp_body_open` function to support WordPress 5.2 `wp_body_open` hook.
 * Fixed `skip-link` to content area.

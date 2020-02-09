@@ -1,6 +1,6 @@
 {
   "name": "yugen",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Yugen is minimal WordPress blog theme.",
   "main": "Gruntfile.js",
   "scripts": {
