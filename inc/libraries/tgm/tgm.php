@@ -18,11 +18,6 @@ if ( ! function_exists( 'yugen_register_recommended_plugins' ) ) :
 	function yugen_register_recommended_plugins() {
         $plugins = array(
             array(
-                'name'     => esc_html__( 'One Click Demo Import', 'yugen' ),
-                'slug'     => 'one-click-demo-import',
-                'required' => false,
-            ),
-            array(
                 'name'     => esc_html__( 'MailChimp Sign-Up Form', 'yugen' ),
                 'slug'     => 'mailchimp-for-wp',
                 'required' => false,
